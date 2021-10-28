@@ -64,15 +64,15 @@
       }
 
 
-      .kultur {
-        background-color: beige;
-      }
+      
+      
+
       /**** använder flexbox istället för float för att kunna ha kolumner ****/
-      .flexbox_container {
+      .flexbox {
         display: flex;
       }
       /**** kolumner placeras i ordning efter html****/
-      .flexboxg {
+      .flexboxar {
         margin: 10px;
       }
       
