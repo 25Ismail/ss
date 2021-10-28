@@ -28,6 +28,31 @@
 
   }
 
+  a:link {
+    color: blueviolet;
+    text-decoration: none;
+    background-color: whitesmoke;
+  }
+
+  a:visited {
+    color: rgb(43, 226, 104);
+    text-decoration: none;
+    background-color: rgb(223, 16, 16);
+  }
+
+  a:hover{
+    color: rgb(255, 94, 0);
+    text-decoration: underline;
+    background-color: rgb(20, 248, 32);
+  }
+
+  a:active {
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+    background-color: rgb(77, 29, 29);
+  }
+
+
   #footer{
     background-color:rgb(255, 214, 163);
     clear: both;
