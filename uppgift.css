@@ -77,6 +77,21 @@
     font-family: sans-serif;
 }
 
+.sport_right {
+  background-color: rgb(188, 253, 255);
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 14px;
+  padding: 1em;
+  border-radius: 10px;
+  float: right;
+  border-radius: 20px;
+  border-style: solid; color: black;
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+  flex-shrink: 0;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
 html {
   scroll-behavior: smooth;
 }
