@@ -8,10 +8,9 @@
     box-shadow: 0 0 15px rgba(255, 137, 1, 0.5); 
     font-size: 14px;
     padding: 1em;
-    width: 65%;;
+    width: 80%;;
     height: fit-content;
     border-radius: 20px;
-    border-style: solid; color: black;
     margin-bottom: 5px;
     margin-top: 5px;
   }
@@ -27,5 +26,9 @@
     width: 100%;
 
   }
+
+  .img_Upgift {
+      border-radius: 5px;
+    } 
   
     
