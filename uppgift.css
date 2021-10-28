@@ -23,6 +23,11 @@
     margin-left: 0em;
   }
 
+  ul  {
+    list-style-type: square;
+
+  }
+
   #footer{
     background-color:rgb(255, 214, 163);
     clear: both;
