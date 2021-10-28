@@ -5,12 +5,15 @@
 .uppgift-div{
     background-color:rgb(255, 214, 163);
     font-family: "Quicksand", Arial, sans-serif;
-    font-size: 100%;
-    padding: 1em;
-    border-radius: 10px;
     box-shadow: 0 0 15px rgba(255, 137, 1, 0.5); 
-    margin: 20px 15px;
-    text-align: center;
+    font-size: 14px;
+    padding: 1em;
+    width: 65%;;
+    height: fit-content;
+    border-radius: 20px;
+    border-style: solid; color: black;
+    margin-bottom: 5px;
+    margin-top: 5px;
   }
 
   #footer{
@@ -22,6 +25,7 @@
     border-top: 5px cornsilk;
     text-align: center;
     width: 100%;
+
   }
   
     
