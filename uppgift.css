@@ -17,8 +17,8 @@
 
   h3 {
     text-align: center;
-    font-size: 1.5em;
-    color: #fd0101;
+    font-size: 1.4em;
+    color: #110808;
     margin-top: 1em;
     margin-left: 0em;
   }
@@ -76,11 +76,8 @@
     font-weight: bold ;
     font-family: sans-serif;
 }
-#firsta p::first-letter{
-  font-size:none;  
-    font-weight: normal;
-    font-family: none;
-}
+
+
 
 
 .sport_right {
