@@ -32,6 +32,15 @@ h1 {
 }
 
 
+h2 {
+	text-align: center;
+	font-size: 1.5em;
+	color: #104ba9;
+	margin-top: 1em;
+	margin-left: 0em;
+}
+
+
 
 .text {
 	font-size: 1.2em;
