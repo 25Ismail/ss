@@ -29,6 +29,7 @@
 
   .img_Upgift {
       border-radius: 5px;
+      width: fit-content;
     } 
 
     .sidomeny-uppgift {
@@ -45,4 +46,7 @@
         float: right;
       }
   
+      .h3-Uppgift {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
     
