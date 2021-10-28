@@ -85,7 +85,7 @@
         border-radius: 10px;
         box-shadow: 0 0 15px rgba(255, 137, 1, 0.5); /* ger rutan ett djup med en skugga runt */
         margin-top: 20px;
-        flex-shrink: 0;  /**** minskar kolumn till höger ****/
+        
       }
       
       .kultur_left {
