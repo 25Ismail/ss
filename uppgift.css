@@ -1,7 +1,10 @@
+/*Ändrar bakgrundsfärgen på min uppgift sida*/
 .uppgift-color {
     background-color: rgb(34, 10, 10);
 }
 
+/*Ändrar bakgrundsfärg, storlek och typsnitt på min div, men även 
+avståndet till nästa element. Har även gjort rundade kanter samt en skugga. .*/
 .uppgift-div{
     background-color:rgb(255, 214, 163);
     font-family: "Quicksand", Arial, sans-serif;
@@ -14,7 +17,7 @@
     margin-bottom: 5px;
     margin-top: 5px;
   }
-
+/*Ändrar utseendet på mina h3*/
   h3 {
     text-align: center;
     font-size: 1.4em;
@@ -23,22 +26,25 @@
     margin-left: 0em;
   }
 
+/*här jag använt mig av list style för att ge den fyr kantiga punkter*/
   ul  {
     list-style-type: square;
 
   }
 
+/*denna är till för när ingen rör länken*/
   a:link {
     color: blueviolet;
     text-decoration: none;
     background-color: whitesmoke;
   }
-
+/*denna är till för när man besöker länken */
   a:visited {
     color: rgb(43, 226, 104);
     text-decoration: none;
     background-color: rgb(223, 16, 16);
   }
+/*denna är för när man lägger musen över länken*/
 
   a:hover{
     color: rgb(255, 94, 0);
@@ -46,30 +52,31 @@
     background-color: rgb(20, 248, 32);
   }
 
-  a:active {
+/*denna är för när man trycker på länken*/
+ a:active {
     color: rgb(255, 251, 0);
     text-decoration: none;
     background-color: rgb(77, 29, 29);
   }
 
-
+ /*här stylar jag fotter ger den en bakgrunds färg shadow se till att jag lägger texent i mitten */
   #footer{
     background-color:rgb(255, 214, 163);
     clear: both;
     margin: 50px 0px -20px -30px;
     padding: 30px;
     box-shadow: 0 0 15px rgba(255, 137, 1, 0.5); 
-    border-top: 5px cornsilk;
     text-align: center;
     width: 100%;
 
   }
-
+/*här har jag använt mig av p::selection för att andra på den vanliga blåa märkering texten till lila och över det blir texten vit*/
   p::selection {
     background-color: rgb(102, 37, 102);
     color: whitesmoke;
 
   }
+/*här har jag ändrat varje  första bokstav i p element till en stor bokstav */
 
   p::first-letter {
     font-size:2rem;  
@@ -79,6 +86,7 @@
 
 
 
+/* här har stylat min höger kilmn samt minskat den och Använt float för att placera den till höger*/  
 
 .upgpift_right {
   background-color: rgb(255, 214, 163);
@@ -92,17 +100,14 @@
   margin: 5px 5px 4px 2px
 }
 
+/* här la jag till scroll-behavior till mooth i html för att jag tyckete det lite obehagligt när man  trycket kontkater och går ner till footer, så detta gör det mycket mer smidigare   */  
+
 html {
   scroll-behavior: smooth;
 }
 
      
-      
-.h3-Uppgift {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      }
-
-
+  
       
       
 
