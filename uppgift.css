@@ -3,13 +3,14 @@
 }
 
 .uppgift-div{
-    background-color: rgb(34, 10, 10);
-    width: 65%;
+    background-color:rgb(255, 214, 163);
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 100%;
     padding: 1em;
-    float: left;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 137, 1, 0.5); 
+    margin: 20px 15px;
+    text-align: center;
   }
 
   #footer{
