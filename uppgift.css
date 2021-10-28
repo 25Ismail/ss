@@ -78,18 +78,15 @@
 }
 
 .sport_right {
-  background-color: rgb(188, 253, 255);
+  background-color: rgb(255, 214, 163);
   font-family: "Quicksand", Arial, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   padding: 1em;
-  border-radius: 10px;
+  border-radius: 12px;
   float: right;
-  border-radius: 20px;
-  border-style: solid; color: black;
-  box-shadow: 0 0 15px rgb(0, 0, 0);
+  box-shadow: 0 0 15px rgba(255, 137, 1, 0.5);
   flex-shrink: 0;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin: 5px 5px 4px 2px
 }
 
 html {
@@ -137,44 +134,5 @@ html {
       
       
 
-      /**** använder flexbox istället för float för att kunna ha kolumner ****/
-      .flexbox {
-        display: flex;
-      }
-      /**** kolumner placeras i ordning efter html****/
-      .flexboxar {
-        margin: 500px;
-      }
       
-      .sökbar_Upgift {
-        background-color: rgb(250, 232, 194);
-        font-family: "Quicksand", Arial, sans-serif;
-        font-size: 75%;
-        padding: 1em;
-        border-radius: 10px;
-        box-shadow: 0 0 15px rgba(255, 137, 1, 0.5); /* ger rutan ett djup med en skugga runt */
-        margin-top: 20px;
-    
-      }
-      
-      .kultur_left {
-        background-color: rgb(250, 232, 194);
-        font-family: "Quicksand", Arial, sans-serif;
-        font-size: 75%;
-        padding: 1em;
-        border-radius: 10px;
-        box-shadow: 0 0 15px rgba(255, 137, 1, 0.5);
-        margin-top: 20px;
-        flex-shrink: 0; /**** minskar kolumn till vänster ****/
-      }
-      
-      .kultur_nytt {
-        background-color: white;
-        font-family: "Quicksand", Arial, sans-serif;
-        font-size: 100%;
-        padding: 1em;
-        border-radius: 10px;
-        box-shadow: 0 0 15px rgba(255, 137, 1, 0.5); 
-        margin: 20px 15px;
-        text-align: center; }
-        /**** centrerar texten i mittkolumnen****/
+     
