@@ -80,7 +80,7 @@
         background-color: rgb(250, 232, 194);
         font-family: "Quicksand", Arial, sans-serif;
         font-size: 75%;
-        float: right;
+        float: left;
         padding: 1em;
         border-radius: 10px;
         box-shadow: 0 0 15px rgba(255, 137, 1, 0.5); /* ger rutan ett djup med en skugga runt */
