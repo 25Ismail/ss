@@ -1,4 +1,14 @@
-<div id="container">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Uppgift.css" >     
+    <link rel="stylesheet" type="text/css" href="krocket.css" />
+
+    <title>Uppgift</title>
+</head>
+<body class="uppgift-color">
+  <div id="container">
   
     <h1>uppgift</h1>
     
@@ -10,26 +20,66 @@
               <li><a href="uppgift.html" title="Inlämningsuppgift 2">Uppgift</a></li>
             </ul>
           </nav> 
-    <div class="uppgift-div">
-       
+</div>
+
+
+
+  <div class="right-uppgift">
+
+  <h3> class="h3-Uppgift">här kan du senast nytt om golf</h3>
+  <img class="img_Upgift" src="ismail.png" alt="arrow" />
+  <form action="https://www.svenskgolf.se/senaste-nytt/">
+    <input type="submit" value="Klicka här!">
+    </form>
+   
+ </div>
+
+<div class="container">
+  <div class="uppgift-div">
+   
+  <p> <strong> världens högst rankade manliga golfspelare</strong> </p>
+
+ 
+  <img class="image_uppgift" src="Golferatsunset.jpg" alt="bild på golf solnedgång"/>
     
-      <p>Lista över världens högst rankade manliga golfspelare</p>
+     <ol type="1"> 
+        <li>Dustin Johnson.</li>
+         <li>Justin Thomas.</li>
+        <li>Jon Rahm. Spanien.</li>
+         <li>Jordan Spieth.</li>
+         <li>Justin Rose. England.</li>
+        <li>Hideki Matsuyama.</li>
+         <li>Rickie Fowler.</li>
+         <li>Brooks Koepka.</li>
+        <li>Jason Day.</li>
+         <li>Tommy Fleetwood.</li>
+      </ol>  
+  </div> 
+</div>
+ 
+      
+ </div>
+ <footer>
+
+   
+
+<div class="sidomeny-uppgift">
+  <h3 class="h3-Uppgift">här kand du senast nytt med golf</h3>
+  <img class="img_Upgift" src="ismail.png" alt="arrow" />
+  <form action="https://www.svenskgolf.se/senaste-nytt/">
+    <input type="submit" value="Klicka här!">
+    </form>
+</div>
+   
+ <footer id="footer">
+      <!-- Här har vi skapat ett id på kontakt för att kunna navigera oss ner hit när man trycker på kontakt i vår 
+    navigation högst upp -->
+      <nav id="kontakt">
+        Telefonnummer: <a href="">0729168103</a> 
+        <!-- br ger oss mellan slag-->
+        E-Mail: <a href="">golf@nacas.se</a>
+      </nav>
+    </footer>
     
-    <img class="image_uppgift" src="Golferatsunset.jpg" alt="bild på golf solnedgång"/>
-    
-    <ol type="1"> 
-      <li>Dustin Johnson.</li>
-      <li>Justin Thomas.</li>
-      <li>Jon Rahm. Spanien.</li>
-      <li>Jordan Spieth.</li>
-      <li>Justin Rose. England.</li>
-      <li>Hideki Matsuyama.</li>
-      <li>Rickie Fowler.</li>
-      <li>Brooks Koepka.</li>
-      <li>Jason Day.</li>
-      <li>Tommy Fleetwood.</li>
-    </ol>  
-    </div> 
-        
-    </div>
-    
+</body>
+</html>
