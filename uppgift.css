@@ -8,7 +8,7 @@
     box-shadow: 0 0 15px rgba(255, 137, 1, 0.5); 
     font-size: 14px;
     padding: 1em;
-    width: 80%;;
+    width: 65%;;
     height: fit-content;
     border-radius: 20px;
     margin-bottom: 5px;
@@ -40,19 +40,24 @@
 
     } 
 
-    .sidomeny-uppgift {
+    .right-uppgift {
 
         background-color: rgb(255, 214, 163);
         font-family: "Quicksand", Arial, sans-serif;
         font-size: 14px;
         padding: 1em;
-        width: 20%;
         margin-left: 75%;
         border-radius: 10px;
         box-shadow: 0 0 15px rgba(255, 137, 1, 0.5);
         margin-top: 20px;
         float: right;
+        border-radius: 20px;
+        flex-shrink: 0;
+        margin-bottom: 5px;
       }
+
+     
+      
   
       .h3-Uppgift {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
