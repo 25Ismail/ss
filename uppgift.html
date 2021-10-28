@@ -1,143 +1,69 @@
-<!------------------ VALIDERAD ------------------->
 <!DOCTYPE html>
-<html lang="zxx"> <!--ändrat språk till zxx för att kunna använda andra språk än svenska engelska och latin-->
+<html lang="sv">
 <head>
-    <link rel="stylesheet" type=text/css href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- länk till fontstyle hämtad från google-->
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
-    <title>FEiJK NEWS</title>
+	<title>Inlämningsuppgift 2</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="krocket.css" />
 </head>
-<!-- satte en klass på bodyelementet för att kunna styla en bakgrund-->
-<body class="kultur">
-<!-- loggan till nyhetssidan-->
-    <img src="leaderboard.feijknews.png" alt="feijknewslogga"
-    style="max-width: 100%;">
+<body >
+<div id="container">
 
-    <!-- navigations fält till andra html-->
-<nav>
-    <ul id="navigation">
-     <li><a href="index.html">HEM</a> </li>
-     <li><a href="larsson.html">NÖJE</a></li>
-     <li><a href="horvallius.html">AKTUELLT</a></li>
-     <li><a href="Takow.html">SPORT</a></li>
-     <li><a href="thornander.html">KULTUR</a></li>
-     <li><a href="carlsson.html"> LIVSSTIL </a></li>
-     <li><a href="#kontakt">KONTAKT</a></li> <!--Denna är länkad med id i footer-->
-    </ul>
-</nav>
+	<h1>uppgift/h1>
 
-<nav>
-    <ul class="underrubriker"> <!--Här gjorde jag som en underkategori med rubriker för ämnen inom kultur-->
-     <li><a href="#">Konst</a></li>
-     <li><a href="#">Litteratur</a></li>
-     <li><a href="#">Teater</a></li>
-     <li><a href="#">Musik</a></li>
-    </ul>
-</nav>
+	<nav id="navigation">
+		<ul>
+			<li><a href="krocket.html" title="Dummy">Startsida</a></li>
+			<li><a href="#" title="Dummy">Svensk krocket</a></li>
+			<li><a href="#" title="Dummy">Engelsk krocket</a></li>
+			<li><a href="uppgift.html" title="Inlämningsuppgift 2">Uppgift</a></li>
+		</ul>
+	</nav>
 
-<div class="flexbox_container"> <!--använde flexbox container för att organisera min layout i tre kolumner -->
-    <div class="flexboxg"> <!--den här div classen är för att dela upp min html i 3 kolumner-->
-     <div class="kultur_right"> <!-- den här div classen är för innehållet i varje kolumn-->
-        <h3>Veckans mest lästa kulturnyheter</h3> <!-- h3 dyker upp här för att kolumnerna ska hamna i den ordning jag önska,
-             hade jag ändrat ordning i cssen hade en skärmläsare läst upp innehållet i fel ordning-->
-            <ol> <!--Här är en ol lista med ofungerande klickbara nyhetsrubriker-->
-             <li><a href="#">George gör nytt publikrekord!</a></li>
-             <li><a href="#">Elefantos släpper sin nya bok</a></li>
-             <li><a href="#">Mopskonst skapar själsro</a></li>
-             <li><a href="#">Kungaparet Gustav & Silvias svåra tid</a></li>
-            </ol>           
+  <div class="right-uppgift">
+
+    <h3> class="h3-Uppgift">här kan du senast nytt om golf</h3>
+    <img class="img_Upgift" src="ismail.png" alt="arrow" />
+    <form action="https://www.svenskgolf.se/senaste-nytt/">
+      <input type="submit" value="Klicka här!">
+      </form>
+     
+   </div>
+  
+  <div class="container">
+    <div class="uppgift-div">
+     
+    <p> <strong> världens högst rankade manliga golfspelare</strong> </p>
+  
+   
+    <img class="image_uppgift" src="Golferatsunset.jpg" alt="bild på golf solnedgång"/>
+      
+       <ol type="1"> 
+          <li>Dustin Johnson.</li>
+           <li>Justin Thomas.</li>
+          <li>Jon Rahm. Spanien.</li>
+           <li>Jordan Spieth.</li>
+           <li>Justin Rose. England.</li>
+          <li>Hideki Matsuyama.</li>
+           <li>Rickie Fowler.</li>
+           <li>Brooks Koepka.</li>
+          <li>Jason Day.</li>
+           <li>Tommy Fleetwood.</li>
+        </ol>  
+    </div> 
+  </div>
+  
+
 </div>
 
-<div class="kultur_right">
-    <h3>Filtrera bland kulturnyheter</h3>   <!--Här är en checkbox för filtrering-->
-     <input type="checkbox" name="Service"
-     Value="litteratur"/> Litteratur <br>
-     <input type="checkbox" name="Service"
-     Value="musik"/> Musik <br>
-     <input type="checkbox" name="Service"
-     Value="kungahuset"/> Kungahuset <br>
-     <input type="checkbox" name="Service"
-     Value="konst"/> Konst <br>
-</div>
-
-<div class="kultur_right">
-    <h3>Sök bland kulturnyheter</h3>        <!--En sökruta med knapp-->
-     <input type="text" name="sökruta" size="30" maxlength="50" />
-     <input type="submit" value="Sök">
-</div>
-</div>
-<!-- första divklassen är för andra kolumnen och article för innehåll. -->
-<div class="flexboxg">
-    <article class="kultur_nytt"> <!--här använde jag article för "nyheterna" -->
-        <a href="#"><!--a href för att det ska se ut som det går att klicka.-->
-        <figure> <!-- använde figure för att innehålla bild och bildtext och figcaption för ge en textbeskrivning av innehållet i figure.-->
-         <h2>Kungaparet Gustav & Silvias svåra tid</h2>
-         <img src="kungahuset.jpg" alt="bild på kungaparet" title="bild på kungaparet" style="max-width: 100%;">
-            <figcaption> Gustav berättar -"Vi har klöst på väggarna" </figcaption>
-        </figure>
-        </a>
-    </article>
-
-<article class="kultur_nytt">
-    <a href="#">
-        <figure>
-         <h2>George gör nytt publikrekord!</h2>
-         <img src="apkoncert.jpg" alt="bild på sjungande apa" title="bild på sjungande apa" style="max-width: 100%;" >
-            <figcaption>Apkonserterna slår publikrekordet! Se dåvarande redkordhållare! </figcaption>      
-        </figure>
-    </a>
-    <p>Vill du se vem som hade publikrekordet innan? </p> <!-- form och input för att göra en länk med en knapp till annan sida.-->
-         <form action="https://gotevent.se/arenor/ullevi/arenafakta/publikrekord-ullevi/">
-         <input type="submit" value="Klicka här!">
-         </form>
-</article>
-
-<article class="kultur_nytt">
-    <a href="#">
-        <figure>
-         <h2>Elefantos släpper sin nya bok</h2>
-         <img src="elefantos.jpg" alt="bild på elefantos" title="bild på elefantos" style="max-width: 100%;">
-         <figcaption> Elefantos gör det igen! Ännu en succébok!</figcaption>  
-        </figure>
-    </a>
-</article>
-    
-<article class="kultur_nytt">
-    <a href="#">
-        <figure>
-         <h2>Mopskonst skapar själsro</h2>
-         <img src="mopsmopsi.jpg" alt="bild på mops" title="bild på mops" style="max-width: 100%;">
-         <figcaption>Mopsar är bevis på hundras som ger själsro </figcaption>
-        </figure>
-    </a>        
-</article>
-</div>
-<!-- första diven är för tredje kolumnen i css:en andra för innehållet.-->
-<div class="flexboxg">
-    <div class="kultur_left">    
-     <h3>Logga in eller registrera dig</h3> <!--här är input för rutor till log-in och nyhetsbrev samt en klickbar knapp för registrering och prenumeration.-->
-        <p>Användarnamn</p>
-        <input type="text" name="Användarnamn" size="30" maxlength="50" />
-        <p>Lösenord</p> 
-        <input type="text" name="Lösenord" size="30" maxlength="50" />
-
-        <p>Inget konto? <a href="#">Registrera dig här!</a> </p>
-
-        <h3>Prenumenera på våra kulturnyheter!</h3>
-        <input type="email" name="email"/>
-        <input type="submit" value="Skicka"/>        
-    </div>
-</div>
-</div>
-
-<footer> <!-- footer med id som gör att man kommer antingen direkt ner om man klickar på kontakt eller direkt upp vid klick på telefon eller mail.-->
-    <nav id="kontakt">
-    Telefonnummer: <a href="">0700999223366778811</a> <br />
-    E-Mail: <a href="">feijknews@direkt.se</a>
-    </nav>
+<footer id="footer">
+  <!-- Här har vi skapat ett id på kontakt för att kunna navigera oss ner hit när man trycker på kontakt i vår 
+navigation högst upp -->
+  <nav id="kontakt">
+    Telefonnummer: <a href="">0729168103</a> 
+    <!-- br ger oss mellan slag-->
+    E-Mail: <a href="">golf@nacas.se</a>
+  </nav>
+  
 </footer>
 </body>
 </html>
