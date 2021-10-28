@@ -37,7 +37,7 @@
     } 
 
     .sidomeny-uppgift {
-        position: fixed;
+        position: sticky;
         background-color: rgb(255, 214, 163);
         font-family: "Quicksand", Arial, sans-serif;
         font-size: 14px;
