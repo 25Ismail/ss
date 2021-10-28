@@ -18,12 +18,14 @@
 
 			<!-- här använder jag filedset för att jag  kan gruppera relaterade formulärkontroller tillsammans inuti <fieldset>-elementet. (valfri element)-->
 		<fieldset>
-		   <legend>välj</legend> 	<!-- här använder jag Elementet <legend> vilket oftas kommmer direkt efter den inledande taggen <fieldset> och innehåller en bildtext som hjälper till att identifiera syftet med formulärkontrollen. -->
+		   <legend>välj</legend> 	<!-- här använder jag Elementet <legend> vilket oftas kommmer direkt efter den inledande taggen <fieldset> och innehåller en bildtext som hjälper till att identifiera syftet med formulärkontrollen. (valfri element) -->
 
 		
 		   <div>
-			 <label>färg</label>
-			<input type="color">
+			 <label>färg</label> 	<!-- här har jag använt label för att beskriva vad inputen är till för (valfri element)-->
+
+			<input type="color"> 	<!-- här har jag använt input color för att använda en cool efekt där man får välja vilken färg som helst, har ingent specielt syfte men tyckte den var ganska roligt o lekta med. (valfri element) -->
+
 		
 		   </div>
 		
@@ -32,8 +34,9 @@
 		<p >Vilken frukt skulle du vilja ha</p>
 		
 		<div>
-		<select name="frukt" >
-		<option value="">bannan</option>
+		<select name="frukt" > 	<!-- här har jag använt mig av select för att skapa en listruta -->
+
+		<option value="">bannan</option> 	<!-- här använder jag flera <option> för att specificera de alternativ som användaren kan välja mellan. -->
 		<option value="">äple</option>
 		<option value="">Päron</option>
 		<option value="">Apelsiner</option>
@@ -55,23 +58,28 @@
 	 </div>
 	
 	
-	<div class="uppgift-div">
-
-<div id="container">
+	<div class="uppgift-div"> 	<!-- jag använder div här som med en class -->
 
 
+<div id="container"> 	<!-- här använder jag div med id, jag använder denna div för jag vill ha nästan all matrial inuti i denna div-->
 
 
 
-	<h1>Uppgift</h1>
 
-	<nav id="navigation">
+
+
+	<h1>Uppgift</h1> 	<!-- här använder jag mig av h1 som också har sen egen styl i krocket.css-->
+
+
+	<nav id="navigation">  <!-- här är navigation -->
+
 		<ul>
 			<li><a href="krocket.html" title="Dummy">Startsida</a></li>
 			<li><a href="#" title="Dummy">Svensk krocket</a></li>
 			<li><a href="#" title="Dummy">Engelsk krocket</a></li>
 			<li><a href="uppgift.html" title="Inlämningsuppgift 2">Uppgift</a></li>
-			<li><a href="#kontakt">KONTAKT</a></li>
+			<li><a href="#kontakt">KONTAKT</a></li> <!-- här är en id som tar dig direkt till footer -->
+
 		</ul>
 	</nav>
 
@@ -80,8 +88,9 @@
 	<p class="text">Krocket är ett av de klassiska spelen i folks trädgårdar. 
     Man kan spela 2-6 personer på en vanlig gräsmatta.
      Målet är att slå sitt klot fram och tillbaka på en bana med tio bågar, längs en given rutt.
-      Den som kommer först i mål vinner. <br> <strong>Texten är hämtat från</strong> <a href="https://www.win-and-tonic.se/har-kan-du-kopa/" title="win and tonic">win and tonic</a></p></p> <br>
-
+      Den som kommer först i mål vinner. <br> <strong>Texten är hämtat från</strong> <a href="https://www.win-and-tonic.se/har-kan-du-kopa/" title="win and tonic">win and tonic</a></p></p> <br>  <!-- här är en link som leder till den hemsidan jag har tagit texten i från och sidan använder jag mig av elmentet strong för att tidligt göra texten där efter använder jag mig av br som ger utryme mellan texten  -->
+	  
+	  <!--här har jag använt mig av iframe. för att spela en youtube video i min sida. (en valfri elment)-->
       <iframe 
       width="560" 
       height="315"  
@@ -91,7 +100,7 @@
       allowfullscreen>
     </iframe>
 
-<img class="image" src="jigck.jpg" alt="en blid på krocket matrial">
+<img class="image" src="jigck.jpg" alt="en blid på krocket matrial"> <!-- här är en img för att visa min bild -->
 
 	<h2>om krocket</h2>
 
@@ -113,7 +122,7 @@
 
 <br> 
 
-<ul>
+<ul> <!-- här är en lista-->
 	<li>krocket klubba till varje spelare</li>
 	<li>bågar krocket</li>
 	<li>krocket klot</li>
@@ -129,11 +138,9 @@
 </div>
 
 <footer id="footer">
-  <!-- Här har vi skapat ett id på kontakt för att kunna navigera oss ner hit när man trycker på kontakt i vår 
-navigation högst upp -->
+  <!-- Här har jag footer-->
   <nav id="kontakt">
     Telefonnummer: <a href="">0729168103</a> 
-    <!-- br ger oss mellan slag-->
     E-Mail: <a href="">upp@gift.se</a>
   </nav>
 </footer>
