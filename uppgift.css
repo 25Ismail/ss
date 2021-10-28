@@ -76,6 +76,12 @@
     font-weight: bold ;
     font-family: sans-serif;
 }
+#firsta p::first-letter{
+  font-size:none;  
+    font-weight: normal;
+    font-family: none;
+}
+
 
 .sport_right {
   background-color: rgb(255, 214, 163);
