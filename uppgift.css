@@ -65,9 +65,26 @@
 
   }
 
+  p::selection {
+    background-color: rgb(102, 37, 102);
+    color: whitesmoke;
+
+  }
+
+  p::first-letter {
+    font-size:2rem;  
+    font-weight: bold ;
+    font-family: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .image_uppgift{
     border-radius: 15px;
 }
+
 
   .img_Upgift {
       border-radius: 5px;
