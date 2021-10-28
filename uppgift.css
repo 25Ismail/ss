@@ -62,4 +62,49 @@
       .h3-Uppgift {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       }
-    
+
+
+      .kultur {
+        background-color: beige;
+      }
+      /**** använder flexbox istället för float för att kunna ha kolumner ****/
+      .flexbox_container {
+        display: flex;
+      }
+      /**** kolumner placeras i ordning efter html****/
+      .flexboxg {
+        margin: 10px;
+      }
+      
+      .kultur_right {
+        background-color: rgb(250, 232, 194);
+        font-family: "Quicksand", Arial, sans-serif;
+        font-size: 75%;
+        padding: 1em;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(255, 137, 1, 0.5); /* ger rutan ett djup med en skugga runt */
+        margin-top: 20px;
+        flex-shrink: 0;  /**** minskar kolumn till höger ****/
+      }
+      
+      .kultur_left {
+        background-color: rgb(250, 232, 194);
+        font-family: "Quicksand", Arial, sans-serif;
+        font-size: 75%;
+        padding: 1em;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(255, 137, 1, 0.5);
+        margin-top: 20px;
+        flex-shrink: 0; /**** minskar kolumn till vänster ****/
+      }
+      
+      .kultur_nytt {
+        background-color: white;
+        font-family: "Quicksand", Arial, sans-serif;
+        font-size: 100%;
+        padding: 1em;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(255, 137, 1, 0.5); 
+        margin: 20px 15px;
+        text-align: center; /**** centrerar texten i mittkolum***/
+        }
